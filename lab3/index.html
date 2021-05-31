@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+    <title>Lab 3</title>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<style>
+  .gray.active {
+    background-color: gray;
+  }
+</style>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="../index.html">Hoa</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div style="margin-left: 5rem;" class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class=" nav-link "  href="../lab1/themxoa.html">Lab 1</a>
+        </li>
+        <li class="nav-item">
+          <a  class="nav-link" href="../lab2/lab2.html">Lab 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active"  href="../lab3/index.html">Lab 3</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  href="../lab4/lab4.html">Lab 4</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"  href="../lab5/lab5.html">Lab 5</a>
+    </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <a  class="nav-link" href="../lab2/resume.html">My Profile</a>
+        <input class="form-control mr-sm-2" type="search" placeholder="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <div>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#requirement" role="tab" aria-controls="home" aria-selected="true">Requirement</a>
+    </li>
+      <li class="nav-item">
+        <a class="nav-link" id="home-tab" data-toggle="tab" href="#ex1" role="tab" aria-controls="home" aria-selected="true">Ex1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link gray" id="profile-tab" data-toggle="tab" href="#ex2" role="tab" aria-controls="profile" aria-selected="false">Ex2</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="requirement" role="tabpanel">
+            <div class="container">
+                <h3>
+                    Requirement 
+                </h3>
+                <p>
+                    Trong menu Labs, tạo 1 menu Lab3 (file lab3.html) sau đó tạo 2 tab Ex1,Ex2
+                </p>
+                <ul>
+                    <li>
+                        Ex1: Thiết kế một trang Web đơn giản sử dụng mẫu F-pattern ==> chuyển sang html (ex1.html)
+                    </li>
+                    <li>
+                        Ex2: Thiết kế một trang Web sử dụng mẫu Z-pattern ==> chuyển sang html (ex2.html)
+                    </li>
+                </ul>
+                <p>
+                    Với cả Ex1, Ex2: Tạo 2 tab Design và Implementation:
+                </p>
+                <ul>
+                    <li>
+                        Design: chụp lại hình ảnh để có cái nhìn tổng quan về file thiết kế, có nút Download để download file thiết kế về nếu muốn.
+                    </li>
+                    <li>
+                        Implementation: nội dung phần hiện thực trên html.
+                    </li>
+                </ul>
+            </div>
+        </div>
+      <div class="tab-pane fade" id="ex1" role="tabpanel">
+              <!-- F-pattern -->
+      <div style="margin-top: 20px">
+        <ul class="nav nav-tabs mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="pills-home-tab" data-toggle="tab" href="#design" role="tab" aria-controls="pills-home" aria-selected="true">Design</a>
+            </li>
+            <li class="nav-item gray">
+              <a class="nav-link" id="pills-profile-tab" data-toggle="tab" href="#implement" role="tab" aria-controls="pills-profile" aria-selected="false">Implement</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="design" role="tabpanel" aria-labelledby="pills-home-tab">
+              <div class="container">
+                <div class="row justify-content-lg-start">
+                  <a type="button" class="btn btn-success" href="./F-Pattern.png" download="">Download</a>
+                </div>
+                <div class="row">
+                  <img src="./F-Pattern.png" />
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="implement" role="tabpanel" aria-labelledby="pills-profile-tab">
+              <div class="container">
+                <div class="row" style="background-color: antiquewhite;">
+                  <h3>To accelerate the world’s transition to sustainable energy.</h3>
+                </div>
+                <div class="row mt-5">
+                  <div class="col-8">
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="./image.jpg" style="width: 100%;" />
+                      </div>
+                      <div class="col-8">
+                        <h4>
+                          Writing Challenge
+                        </h4>
+                        <p>
+                          Another writing challenge can be to take the individual sentences in the random paragraph and incorporate a single sentence from that into a new paragraph to create a short story.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row mt-5">
+                      <div class="col-4">
+                        <img src="./image3.jpg" style="width: 100%;" />
+                      </div>
+                      <div class="col-8">
+                        <h4>
+                          Writing Challenge
+                        </h4>
+                        <p>
+                          Another writing challenge can be to take the individual sentences in the random paragraph and incorporate a single sentence from that into a new paragraph to create a short story.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="row">
+                      <img src="./image2.jpeg" style="width: 100%;"  />
+                    </div>
+                    <div class="row mt-4">
+                      <img src="./image3.jpg" style="width: 100%;"  />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      </div>
+      <div class="tab-pane fade" id="ex2" role="tabpanel">
+              <!-- Z-pattern -->
+      <div style="margin-top: 20px">
+        <ul class="nav nav-tabs mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#design1" role="tab" aria-controls="pills-home" aria-selected="true">Design</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#implement1" role="tab" aria-controls="pills-profile" aria-selected="false">Implement</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="design1" role="tabpanel" aria-labelledby="pills-home-tab">
+              <div class="container">
+                <div class="row justify-content-lg-start">
+                  <a type="button" class="btn btn-success" href="./Z-Pattern.png" download="">Download</a>
+                </div>
+                <div class="row">
+                  <img src="./Z-Pattern.png" />
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="implement1" role="tabpanel" aria-labelledby="pills-profile-tab">
+              <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./image.jpg" class="d-block w-100" style="max-height: 500px;" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./image2.jpeg" class="d-block w-100" style="max-height: 300px;" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./image3.jpg" class="d-block w-100" style="max-height: 300px;" alt="...">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+
+              <div class="row mt-5">
+                <div class="col-5">
+                  <h4>Beginning Writing Routine</h4>
+                  <p>
+                    Another productive way to use this tool to begin a daily writing routine. One way is to generate a random paragraph with the intention to try to rewrite it while still keeping the original meaning. The purpose here is to just get the writing started so that when the writer goes onto their day's writing projects, words are already flowing from their fingers.
+                  </p>
+                </div>
+  
+                <div class="col-5">
+                  <h4>Tackle Writers' Block</h4>
+                  <p>
+                    A random paragraph can also be an excellent way for a writer to tackle writers' block. Writing block can often happen due to being stuck with a current project that the writer is trying to complete. By inserting a completely random paragraph from which to begin, it can take down some of the issues that may have been causing the writers' block in the first place.
+                  </p>
+                </div>
+  
+                <div class="col-2">
+                  <button type="button" class="btn btn-success">Register Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

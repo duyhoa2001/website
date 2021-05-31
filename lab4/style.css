@@ -1,0 +1,61 @@
+.like {
+    font-size: 1.5rem;
+  }
+
+
+
+  .contact form {
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:60px;
+    margin: 12px auto;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    position:relative;
+    z-index:1;
+  }
+  
+  .contact form > div{
+    position:absolute;
+    top:0;
+    left:50%;
+    padding:0 20px;
+    transform:translate(-50%,-50%);
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    text-align:center;
+  }
+  
+  .contact form > div > img{
+    filter:invert(1);
+    width:100px;
+  }
+  
+  .contact form > input,
+  form > textarea {
+    padding: 12px;
+    margin: 12px auto;
+    border: 1px solid #ccc;
+    color: #ddd;
+    border-radius: 4px;
+    display: block;
+    width: 50vw;
+  }
+  
+  .contact form > textarea{
+    height:100px;
+    resize:none;
+  }
+  
+  .contact form > input[type="submit"] {
+    max-width: 20vw;
+    padding-left: 1%;
+    padding-right: 1%;
+    cursor: pointer;
+    transition: 0.35s;
+  }
+  
+  .contact form > input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
